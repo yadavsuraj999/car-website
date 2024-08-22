@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rozha+One&display=swap');
+
+.font-family{
+    
+}
+
+.font-family {
+    font-family: "Rozha One", serif;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family:  "Montserrat", sans-serif;
+}
+
+.padding{
+    padding-top: 100px;
+}
+
+.font-s{
+    font-size: 14px;
+    color: #666666;
+}
+
+.font-s20{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:  "Montserrat", sans-serif;
+}
+
+.box-bg-color{
+    background-color: #1e2129;
+}
+
+.padding-b{
+    padding-bottom: 120px;
+}
+.same-color{
+    color: #e8c79e;
+}
+
+.nav-item a{
+    transition: 0.3s all linear !important;
+    color: aliceblue !important;
+}
+
+.nav-item .high-light{
+    color: #E8C79E !important;
+}
+
+.nav-item a:hover {
+    color: #E8C79E !important;
+    cursor: pointer !important;
+}
+
+.search{
+    font-weight: 900 !important;
+    color: #666666 !important;
+    cursor: pointer !important;
+    transition: 0.3 all linear !important;
+}
+
+.search:hover{
+    color: #E8C79E !important;
+}
+
+.nav-offcanvas li{
+    transition: 0.3s all linear !important;
+}
+
+.nav-offcanvas li:hover{
+    color: #E8C79E !important;
+    cursor: pointer !important;
+}
+
+.btn {
+    padding: 8px 12px !important;
+    border: 1px solid #e8c79e !important;
+    border-radius: 0px !important;
+    font-weight: 400 !important;
+    color: #e8c79e !important;
+    transition: 0.3s all linear !important;
+    box-shadow: none !important;
+}
+
+.btn:hover{
+    background-color: #E8C79E !important;
+    color: black !important;
+}
+
+.main-image{
+    background-image: url('../images/home-image.jpg') !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh !important;
+}
+
+.main-heading{
+    font-family: "Rozha One", serif;
+    font-size: 70px;
+    color: aliceblue;
+
+}
+
+.main-content{
+    padding: 200px 10px 10px !important;
+}
+
+.main-content p{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e8c79e;
+}
+
+.car-heading p{
+    text-align: center;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e8c79e;
+}
+
+.car-heading h2{
+    text-align: center;
+    font-family: "Rozha One", serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.car-select div{
+    padding: 5px 8px;
+    border: 1.8px solid #E8C79E;
+    margin-top: 20px;
+    transition: 0.3s all linear;
+    color: #e8c79e;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.car-select div:hover{
+    background-color: #e8c79e;
+    color: aliceblue;
+}
+
+
+.dark{
+    background-color: #e8c79e;
+    color: aliceblue !important;
+}
+
+.star{
+    color: #edcc30;
+}
+
+.number-box{
+    padding: 5px 16px;
+    background-color: #35383e93;
+    border-radius: 5px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.xv-font{
+    font-size: 26px;
+    font-weight: normal;
+    font-family: "Rozha One", serif;
+    color: aliceblue;
+}
+
+.card-content{
+    background-color: #1e2129;
+}
+
+.bg-color{
+    background-color: #13151e;
+}
+
+.top-line{
+    border-top: #666666 !important;
+}
+
+.car-type div{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: #e8c79e;
+    margin-bottom: 15px;
+}
+
+
+.car-type{
+    padding: 0 30px;
+    margin: 0 15px;
+    border: 1px solid black;
+    background-color: #1e2129;
+}
+
+.car-type div svg{
+    width: 80px ;
+    height: 80px; 
+}
+
+.car-heading{
+    text-align: center;
+    font-family: "Rozha One", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.car-detail{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+
+.join-box h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Rozha One", serif;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.join-box p{
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+.star-light i{
+    color: #edcc30;
+}
+
+.star-light p{
+    color: #666666;
+    font-size: 14px;
+}
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .social-icon i{
+    transition: 0.3s all linear;
+    cursor: pointer;
+  }
+
+  .social-icon i:hover{
+    color: #e8c79e;
+  }
+
+  .hover li{
+    transition: 0.3s all linear;
+    cursor: pointer;
+  }
+
+  .hover li:hover{
+    color: #e8c79e;
+  }
+
+  .color-light{
+    background-color: #1e2129c7;
+  }
+  
+  .focus-none:focus{
+    outline: none ;
+  }
+
+  .bg-2{
+    background-color: #1e2129;
+  }
+
+  .contact{
+    font-size: 70px;
+    font-family: "Rozha One", serif;
+    color: aliceblue;
+  }
+
+  .mgs-contant p{
+    font-size: 14px;
+    font-weight: 700;
+    font-family:  "Montserrat", sans-serif;
+    color: #e8c79e;
+  }
+
+  .mgs-contant h1{
+    font-family: "Rozha One", serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: aliceblue;
+  }
+
+  .form-control{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #1212138e !important;
+    border-radius: 0 !important;
+  }
+
+  .contact-me p{
+    font-size: 14px;
+    color: #e8c79e;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+
+  .contact-me h1{
+    font-size: 36px;
+    font-family: "Rozha One", serif;
+    color: aliceblue;
+  }
+
+  .bg-color2{
+    background-color: #1e2129;
+  }
+
+  .color-light2{
+    background-color: #2a2c33a1;
+  } 
+
+  
