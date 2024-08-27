@@ -325,4 +325,11 @@
     background-color: #2a2c33a1;
   } 
 
-  
+  .play-btn{
+    width: 80px;
+    height: 80px;
+  }
+
+  ::placeholder{
+    color: rgb(160, 151, 151) !important;
+  }
